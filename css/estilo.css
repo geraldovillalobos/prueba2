@@ -1,0 +1,201 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    p{
+        font-family:  Helvetica, sans-serif;
+    }
+    body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(109, 238, 216);
+    color:rgb(0, 0, 0);
+    }
+h2{
+    font-size: 40px;
+}
+#encabezado{
+width:100% ;
+background-color: rgb(255, 255, 255);
+height:200px ;
+display: block;
+margin:auto;
+
+
+
+}
+
+.menu-main{
+    border-radius: 95%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(239,197,202); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 55%, rgba(241,142,153,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(239,197,202,1) 0%,rgba(210,75,90,1) 50%,rgba(186,39,55,1) 55%,rgba(241,142,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(239,197,202,1) 0%,rgba(210,75,90,1) 50%,rgba(186,39,55,1) 55%,rgba(241,142,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=0 ); /* IE6-9 */
+    border-bottom: 1px solid #ffffff;
+    height:60px;
+    line-height: 30px;
+    border-radius: 5px;   
+    }
+    
+.menu-main ol{
+  
+    display: flex;
+    padding-left: 600px;
+    margin:0px;
+ 
+    
+    
+    
+    }
+    .menu-main ol li{
+        list-style: none;
+        display: block;
+       
+
+
+        }
+    .menu-main ol li a{
+    font-family: arial;
+    border-radius: 15%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18pt;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding: 15px 18px;
+    text-align: center;
+    }
+    .menu-main a:hover{
+    background-color:white;
+    display: block;
+    color: teal;
+    animation: 1s ms 1;
+    }
+    .menu-main a.active{
+    background-color: #0400ff;
+   
+    }
+
+        
+#noticia1{
+
+
+width: 98%;
+height: 270px;
+text-align: left;
+border-style: solid;
+border-radius: 19px;
+
+margin-top: 10PX;
+margin-left: 15px;
+}
+#noticia1 p{font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;}
+#noticia1 img{
+    width: 350px;
+    height: 270px;
+    margin-right: 10px;
+
+    border-radius: 19px;
+    float: left;
+}
+#noticia2{
+
+
+    width: 98%;
+    height: 270px;
+    text-align: left;
+    border-style: solid;
+    border-radius: 19px;
+    
+    margin-top: 10PX;
+    margin-left: 15px;
+    }
+    #noticia2 p{font-family: Arial, Helvetica, sans-serif;
+        font-size: 20pt;}
+    #noticia2 img{
+        width: 350px;
+        height: 270px;
+        margin-right: 10px;
+    
+        border-radius: 19px;
+        float: left;
+    }
+    #noticia3{
+
+
+        width: 98%;
+        height: 270px;
+        text-align: left;
+        border-style: solid;
+        border-radius: 19px;
+        
+        margin-top: 10PX;
+        margin-left: 15px;
+        }
+        #noticia3 p{font-family: Arial, Helvetica, sans-serif;
+            font-size: 20pt;}
+        #noticia3 img{
+            width: 350px;
+            height: 270px;
+            margin-right: 10px;
+        
+            border-radius: 19px;
+            float: left;
+        }
+        #noticia4{
+
+
+            width: 98%;
+            height: 270px;
+            text-align: left;
+            border-style: solid;
+            border-radius: 19px;
+            
+            margin-top: 10PX;
+            margin-left: 15px;
+            }
+            #noticia4 p{font-family: Arial, Helvetica, sans-serif;
+                font-size: 20pt;}
+            #noticia4 img{
+                width: 350px;
+                height: 270px;
+                margin-right: 10px;
+            
+                border-radius: 19px;
+                float: left;
+            }
+@keyframes ms{
+    0%{
+        opacity: 0;
+        transform: scale(1.6);
+    }
+
+}
+@media (max-width: 1200px) {
+
+    .menu-main {
+    height: auto;
+    border-bottom: 0px;
+    display: block;
+    }
+    
+    #noticia1,#noticia2,#noticia3,#noticia4{
+height: 440px;
+    }
+    
+    .menu-main ol{
+        display: block;
+        padding-left: 0px;
+    }
+   
+    .menu-main a{
+    height: 30px;
+    border-bottom: 1px solid #29487d;
+    }
+   }
